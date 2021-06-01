@@ -4,12 +4,10 @@
 
 ## Você está aqui
 
-Essa seria a branch da segunda feature (second-feature). Dê uma olhada no `git log` dela para ver como ela difere da primeira.
+Essa branch demonstra um merge. Se você olhar no `git log` dela, vai perceber que ela possui todos os commits da master até sua criação, com o commit da branch `basics/second-feature` intercalado na sua posição cronológica e um commit final gerado automaticamente do merge realizado (Merge branch 'basics/second-feature' into basics/feature-merge). No topo de todos esses estará o commit que atualiza este README novamente.
 
-Você pode imaginar branches como galhos em uma grande árvore. Um repositório bem organizado vai ter um tronco (normalmente a master) a partir do qual vários galhos (branches) se extendem para que diferentes features e fixes possam ser implementados paralelamente. Branches podem ser criadas, modificadas e excluidas localmente, ou até remotamente. Mais detalhes: [Explicação da Atlassian](https://www.atlassian.com/br/git/tutorials/using-branches).
+Um merge é exatamente o que o nome indica. Ele combina os commits de duas branches, em ordem cronológica, em uma nova branch e, caso existam alterações que diferem entre ambas as branches, cria um commit de merge no topo, que combina as mudanças. Mais detalhes: [Explicação da Atlassian](https://www.atlassian.com/br/git/tutorials/using-branches/git-merge).
 
-Para registrar suas mudanças nas branches são usando commits. Os commits podem ser vistos como nós em cada galho e no próprio tronco. Eles demarcam o progresso realizado à partir do commit anterior. Mais detalhes: [Explicação da Atlassian](https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit).
+A esse ponto, tente criar uma branch a partir dessa com a adição de um novo arquivo, e uma outra branch a partir dessa com a adição de outro arquivo. Faça o merge delas. (OBS: Lembre-se de usar o comando `git add` para adicionar o novo arquivo ao seu commit! Use os comandos dos tutoriais da atlassian e veja o que ocorre.)
 
-A esse ponto, tente criar uma branch e fazer um commit nela! (OBS: Lembre-se que para fazer um commit você precisa ter realizado alterações primeiro! Use os comandos dos tutoriais da atlassian e veja o que ocorre.)
-
-Quando estiver satisfeito, pode seguir para a branch `basics/feature-merge`.
+Quando estiver satisfeito, pode seguir para a última branch básica: `basics/feature-rebase`.
