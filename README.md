@@ -2,18 +2,14 @@
 
 ![Git Gud Meme](images/ca-git-gud.jpg)
 
-## Proposta
-
-Este repositório tem como objetivo fornecer um playground para exploração de conceitos e comandos do git. Basta clonar o repositório (comando `git clone https://github.com/Baruffi/git-gud`) e começar a navegá-lo localmente (comando `git checkout [branch]`). Experimente diferentes comandos como merges e rebases de branches para ver o efeito resultante. Sugestões serão dadas no arquivo [README](README.md) de cada branch respectiva.
-
-## Visualização
-
-Para visualizar uma animação representativa do histórico deste repositório, você pode instalar e executar o [gource](https://gource.io) na pasta raiz. Sinta-se à vontade para utilizar outras ferramentas de visualização para te auxiliar na exploração das branches.
-
 ## Você está aqui
 
-Aqui constarão detalhes sobre a branch atual e sugestões de comandos a serem executados. A branch master nesse projeto pode ser visualizada como o tronco.
+Essa seria a branch da segunda feature (second-feature). Dê uma olhada no `git log` dela para ver como ela difere da primeira.
 
-Para começar, você pode visualizar a lista completa de branches com o comando `git branch`. A seguir, que tal dar checkout na branch `basics/first-feature`?
+Você pode imaginar branches como galhos em uma grande árvore. Um repositório bem organizado vai ter um tronco (normalmente a master) a partir do qual vários galhos (branches) se extendem para que diferentes features e fixes possam ser implementados paralelamente. Branches podem ser criadas, modificadas e excluidas localmente, ou até remotamente. Mais detalhes: [Explicação da Atlassian](https://www.atlassian.com/br/git/tutorials/using-branches).
 
-Mais detalhes: [Git Branch](https://git-scm.com/docs/git-branch), [Git Checkout](https://git-scm.com/docs/git-checkout).
+Para registrar suas mudanças nas branches são usando commits. Os commits podem ser vistos como nós em cada galho e no próprio tronco. Eles demarcam o progresso realizado à partir do commit anterior. Mais detalhes: [Explicação da Atlassian](https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit).
+
+A esse ponto, tente criar uma branch e fazer um commit nela! (OBS: Lembre-se que para fazer um commit você precisa ter realizado alterações primeiro! Use os comandos dos tutoriais da atlassian e veja o que ocorre.)
+
+Quando estiver satisfeito, pode seguir para a branch `basics/feature-merge`.
