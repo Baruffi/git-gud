@@ -14,6 +14,6 @@ Para visualizar uma animação representativa do histórico deste repositório, 
 
 Aqui constarão detalhes sobre a branch atual e sugestões de comandos a serem executados. A branch master nesse projeto pode ser visualizada como o tronco.
 
-Para começar, você pode visualizar a lista completa de branches com o comando `git branch`. A seguir, que tal dar checkout na branch `basics/first-feature`?
+Para começar, você pode visualizar a lista completa de branches com o comando `git branch`. A seguir, que tal dar checkout na branch `basics/first-feature`? Ou, se você já domina o básico, pode aprender sobre outras ferramentas úteis do git nas branches dos demais grupos!
 
 Mais detalhes: [Git Branch](https://git-scm.com/docs/git-branch), [Git Checkout](https://git-scm.com/docs/git-checkout).
