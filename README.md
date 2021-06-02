@@ -4,9 +4,4 @@
 
 ## Você está aqui
 
-Esta é a branch tronco de todas as branches relacionadas a commits, grupo `commit/`. Um commit nada mais é que uma snapshot local do código, e é utilizado para marcar o progresso do projeto em seu histórico. Mais detalhes:
-[Git Commit](https://git-scm.com/docs/git-commit).
-
-Essa branch vai conter alguns commits com outros arquivos, para facilitar os exemplos ilustrativos que seguem.
-
-Esse primeiro arquivo é particularmente importante: o gitignore. Ele é um arquivo de configuração do git que permite que você ignore arquivos. Veja que este contém apenas uma linha "ignorar". Tente criar um arquivo ou pasta com esse nome dentro do repositório nesta branch e veja que será ignorado pelo git. Mais deatlhes: [Git Ignore](https://git-scm.com/docs/gitignore).
+Essa branch vai passar por um cherry-pick com a commit-dev. Com o comando `git cherry-pick`, é possível realizar o cherry pick, que permite a aplicação de commits alvo na branch atual. Observe que no histórico existem múltiplos commits da branch commit-dev a frente do commit de atualização do readme, porém com hashes diferentes. Isso pode ser útil quando você deseja fazer merge de apenas algumas alterações entre branches. Mais detalhes: [Git Cherry-Pick](https://git-scm.com/docs/git-cherry-pick).
