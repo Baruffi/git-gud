@@ -4,9 +4,4 @@
 
 ## Você está aqui
 
-Esta é a branch tronco de todas as branches relacionadas a commits, grupo `commit/`. Um commit nada mais é que uma snapshot local do código, e é utilizado para marcar o progresso do projeto em seu histórico. Mais detalhes:
-[Git Commit](https://git-scm.com/docs/git-commit).
-
-Essa branch vai conter alguns commits com outros arquivos, para facilitar os exemplos ilustrativos que seguem.
-
-Esse primeiro arquivo é particularmente importante: o gitignore. Ele é um arquivo de configuração do git que permite que você ignore arquivos. Veja que este contém apenas uma linha "ignorar". Tente criar um arquivo ou pasta com esse nome dentro do repositório nesta branch e veja que será ignorado pelo git. Mais deatlhes: [Git Ignore](https://git-scm.com/docs/gitignore).
+Com o comando `git rebase -i`, é possível realizar o rebase interativo, que permite a escolha entre diferentes formas de tratar cada um deles. Essa branch fala sobre o squash: combinar os commits de rebase em um único commit maior. Essa branch passou por um rebase squash com a commit-dev. Observe que no histórico existe um único commit que compila múltiplos commits da branch commit-dev. Isso é muito prático para branches de release por exemplo, para manter um histórico menos granular e mais limpo. Mais detalhes: [Rebase e Squash](https://medium.com/cwi-software/utilizando-rebase-e-squash-para-melhorar-o-histórico-do-git-fdb2d952c09c).
