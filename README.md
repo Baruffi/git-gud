@@ -4,5 +4,4 @@
 
 ## Você está aqui
 
-Esta é a branch tronco de todas as branches relacionadas a commits, grupo `commit/`. Um commit nada mais é que uma snapshot local do código, e é utilizado para marcar o progresso do projeto em seu histórico. Mais detalhes:
-[Git Commit](https://git-scm.com/docs/git-commit).
+Esta branch apresenta um commit de revert, ou seja, reverte o que foi feito em um commit anterior. Pode ver que ela veio depois do commit que adicionou o gitignore, porém não inclui o arquivo. O comando `git revert` permite a reversão automática de um ou mais commits em um novo commit. É uma forma de preservar essas mudanças no histórico, mas revertê-las sem muita dor de cabeça. Mais detalhes: [Git Revert](https://git-scm.com/docs/git-revert).
